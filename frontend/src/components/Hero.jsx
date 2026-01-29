@@ -138,11 +138,13 @@ const Hero = () => {
                 {/* Profile Image Container */}
                 <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                   <div className="profile-image w-full h-full">
-                    <img
-                      src="https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/yu8cjx2s_IMG_5475.heic"
-                      alt="Sindhu Sundararajan - SDET"
-                      className="w-full h-full object-cover rounded-full"
-                    />
+                    {/* Gradient Background with Professional Styling */}
+                    <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 via-secondary/30 to-accent/30 flex items-center justify-center">
+                      <div className="text-6xl md:text-8xl font-bold text-foreground/80">
+                        SS
+                      </div>
+                    </div>
+                    {/* Note: Replace the div above with an img tag when you have a web-compatible image format (JPG/PNG/WebP) */}
                   </div>
                   
                   {/* Status Badge */}
