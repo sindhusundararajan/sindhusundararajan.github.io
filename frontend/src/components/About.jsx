@@ -31,12 +31,9 @@ const About = () => {
             <div className="lg:col-span-1 space-y-6 animate-slide-in-left">
               {/* Professional Photo */}
               <div className="relative group">
-                <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
-                  <img
-                    src="https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/yu8cjx2s_IMG_5475.heic"
-                    alt="Sindhu Sundararajan"
-                    className="w-full h-full object-cover"
-                  />
+                <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center">
+                  <div className="text-8xl font-bold text-foreground/60">SS</div>
+                  {/* Note: Replace with actual image when you have a web-compatible format (JPG/PNG/WebP) */}
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
