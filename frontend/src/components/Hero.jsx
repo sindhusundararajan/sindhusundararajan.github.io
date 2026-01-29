@@ -41,7 +41,7 @@ const Hero = () => {
               {/* Greeting */}
               <div className="inline-block">
                 <span className="text-sm md:text-base font-medium text-primary bg-primary/10 px-4 py-2 rounded-full">
-                  👋 Hi, I'm {personalInfo.name.split(' ')[0]}
+                  Hi, I'm {personalInfo.name.split(' ')[0]}
                 </span>
               </div>
 
