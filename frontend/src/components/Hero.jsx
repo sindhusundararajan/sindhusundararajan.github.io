@@ -93,14 +93,16 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Button
                 size="lg"
-                className="btn-transition bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8"
+                className="btn-transition rounded-full px-8"
+                style={{ backgroundColor: '#7AB8E8', color: '#1A1614' }}
                 onClick={() => handleScroll('#contact')}
               >
                 Contact Me
               </Button>
               <Button
                 size="lg"
-                className="btn-transition bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8"
+                className="btn-transition rounded-full px-8"
+                style={{ backgroundColor: '#C97DB8', color: '#1A1614' }}
                 onClick={() => {
                   window.open(
                     'https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/dtyxhy47_SindhuSundararajan_AutomationTestEngineer.pdf',
