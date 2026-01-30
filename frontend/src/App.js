@@ -10,9 +10,6 @@ import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import WhyWorkWithMe from './components/WhyWorkWithMe';
-import Metrics from './components/Metrics';
-import Blog from './components/Blog';
-import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -30,9 +27,6 @@ const Home = () => {
         <Projects />
         <Skills />
         <WhyWorkWithMe />
-        <Metrics />
-        <Blog />
-        <Testimonials />
         <Contact />
       </main>
       <Footer />
