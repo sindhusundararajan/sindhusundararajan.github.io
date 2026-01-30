@@ -215,37 +215,37 @@ export const projects = [
 
 export const skills = {
   "Programming & Scripting": [
-    { name: "Python", level: "Expert", years: 5, icon: "Code2" },
-    { name: "SQL", level: "Expert", years: 5, icon: "Database" },
-    { name: "JavaScript", level: "Advanced", years: 3, icon: "FileCode" },
-    { name: "Node.js", level: "Intermediate", years: 2, icon: "Server" }
+    { name: "Python", icon: "Code2" },
+    { name: "SQL", icon: "Database" },
+    { name: "JavaScript", icon: "FileCode" },
+    { name: "Node.js", icon: "Server" }
   ],
   "Test Automation": [
-    { name: "Selenium", level: "Expert", years: 5, icon: "Globe" },
-    { name: "Playwright", level: "Advanced", years: 2, icon: "Theater" },
-    { name: "Appium", level: "Advanced", years: 3, icon: "Smartphone" },
-    { name: "PyTest", level: "Expert", years: 5, icon: "Flask" },
-    { name: "TestNG", level: "Advanced", years: 3, icon: "TestTube" }
+    { name: "Selenium", icon: "Globe" },
+    { name: "Playwright", icon: "Theater" },
+    { name: "Appium", icon: "Smartphone" },
+    { name: "PyTest", icon: "Flask" },
+    { name: "TestNG", icon: "TestTube" }
   ],
   "API & Integration Testing": [
-    { name: "Postman", level: "Expert", years: 5, icon: "Send" },
-    { name: "REST Assured", level: "Advanced", years: 3, icon: "Webhook" },
-    { name: "Swagger/OpenAPI", level: "Advanced", years: 4, icon: "FileJson" }
+    { name: "Postman", icon: "Send" },
+    { name: "REST Assured", icon: "Webhook" },
+    { name: "Swagger/OpenAPI", icon: "FileJson" }
   ],
   "Database & ETL": [
-    { name: "MySQL", level: "Expert", years: 5, icon: "Database" },
-    { name: "Snowflake", level: "Advanced", years: 2, icon: "Cloud" },
-    { name: "ETL Testing", level: "Expert", years: 4, icon: "ArrowLeftRight" }
+    { name: "MySQL", icon: "Database" },
+    { name: "Snowflake", icon: "Cloud" },
+    { name: "ETL Testing", icon: "ArrowLeftRight" }
   ],
   "CI/CD & DevOps": [
-    { name: "Jenkins", level: "Advanced", years: 4, icon: "Cog" },
-    { name: "GitHub Actions", level: "Advanced", years: 3, icon: "Github" },
-    { name: "Docker", level: "Advanced", years: 3, icon: "Container" },
-    { name: "Terraform", level: "Intermediate", years: 2, icon: "Boxes" }
+    { name: "Jenkins", icon: "Cog" },
+    { name: "GitHub Actions", icon: "Github" },
+    { name: "Docker", icon: "Container" },
+    { name: "Terraform", icon: "Boxes" }
   ],
   "Cloud Platforms": [
-    { name: "AWS", level: "Advanced", years: 3, icon: "CloudCog" },
-    { name: "Azure", level: "Advanced", years: 2, icon: "Cloud" }
+    { name: "AWS", icon: "CloudCog" },
+    { name: "Azure", icon: "Cloud" }
   ]
 };
 
