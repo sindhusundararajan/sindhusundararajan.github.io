@@ -129,32 +129,6 @@ const Contact = () => {
                       />
                     </div>
 
-                    {/* Subject */}
-                    <div>
-                      <label
-                        htmlFor="subject"
-                        className="block text-sm font-medium mb-2"
-                      >
-                        Subject *
-                      </label>
-                      <Select
-                        value={formData.subject}
-                        onValueChange={handleSubjectChange}
-                        required
-                      >
-                        <SelectTrigger className="form-input">
-                          <SelectValue placeholder="Select a subject" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {contactSubjects.map((subject) => (
-                            <SelectItem key={subject} value={subject}>
-                              {subject}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
                     {/* Message */}
                     <div>
                       <label
