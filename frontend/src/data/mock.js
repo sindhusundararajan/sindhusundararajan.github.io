@@ -50,7 +50,7 @@ export const workExperience = [
   {
     id: 1,
     company: "Community Dream Foundation",
-    role: "QA Automation Engineer",
+    role: "Software Development Engineer in Test",
     period: "Sep 2024 - Present",
     location: "Remote",
     achievements: [
@@ -64,7 +64,7 @@ export const workExperience = [
   {
     id: 2,
     company: "New York State Office-ITS",
-    role: "QA Analyst",
+    role: "Software Development Engineer in Test",
     period: "Jul 2023 - Dec 2023",
     location: "New York, NY",
     achievements: [
@@ -78,7 +78,7 @@ export const workExperience = [
   {
     id: 3,
     company: "Cognizant Technology Solutions",
-    role: "QA Automation Engineer",
+    role: "Software Development Engineer in Test",
     period: "Apr 2019 - Sep 2022",
     location: "India / Remote",
     achievements: [
