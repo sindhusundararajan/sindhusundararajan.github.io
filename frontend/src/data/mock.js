@@ -168,12 +168,12 @@ export const projects = [
   {
     id: 3,
     title: "Data Pipeline Quality Validation Framework",
-    shortDesc: "ETL testing framework ensuring 99.9% data accuracy",
-    description: "Specialized testing framework for data pipelines validating ETL processes, data quality, schema compliance, and reconciliation between source and target systems. Handles millions of records daily.",
+    shortDesc: "ETL testing framework ensuring 96% data accuracy",
+    description: "Specialized testing framework for data pipelines validating ETL processes, data quality, schema compliance, and reconciliation between source and target systems. Handles thousands of records daily.",
     impact: [
-      { metric: "99.9%", label: "Data Accuracy" },
-      { metric: "100M+", label: "Records Validated Daily" },
-      { metric: "95%", label: "Issue Detection Rate" }
+      { metric: "96%", label: "Data Accuracy" },
+      { metric: "50K+", label: "Records Validated Daily" },
+      { metric: "87%", label: "Issue Detection Rate" }
     ],
     technologies: ["Python", "SQL", "Snowflake", "MySQL", "AWS", "Pandas", "Great Expectations"],
     category: ["ETL Testing", "Data Quality", "Cloud"],
