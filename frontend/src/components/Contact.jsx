@@ -226,10 +226,6 @@ const Contact = () => {
               {/* Availability Note */}
               <Card className="border-2 border-accent/50">
                 <CardContent className="p-6 text-center">
-                  <div className="flex items-center justify-center gap-2 mb-2">
-                    <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-                    <p className="font-semibold">Currently Available</p>
-                  </div>
                   <p className="text-sm text-muted-foreground">
                     Open to full-time opportunities and freelance projects
                   </p>
