@@ -175,8 +175,7 @@ const Projects = () => {
     'API Testing',
     'ETL Testing',
     'Mobile Testing',
-    'Performance Testing',
-    'AI/ML',
+    'Cloud',
   ];
 
   const filteredProjects =
