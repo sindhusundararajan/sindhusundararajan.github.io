@@ -67,9 +67,7 @@ const WhyWorkWithMe = () => {
               <div className="max-w-3xl mx-auto">
                 <div className="text-6xl text-primary/30 mb-4">“</div>
                 <blockquote className="text-xl md:text-2xl font-medium italic mb-6">
-                  Sindhu's automation frameworks saved us countless hours and dramatically
-                  improved our release confidence. She doesn't just write tests—she
-                  architects quality into the entire development process.
+                  Sindhu was an enthusiastic and quick learner. She has scaled up herself to deliver in Agile fashion. She was very active and ready to explore her learning skills and using it to fix the codes and helped in implementation parts. She was skillful and also managed the team as an individual.
                 </blockquote>
                 <div className="flex flex-col items-center">
                   <p className="font-semibold">Sarah Martinez</p>
