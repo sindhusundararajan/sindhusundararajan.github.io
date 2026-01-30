@@ -109,23 +109,6 @@ const About = () => {
                   })}
                 </div>
               </div>
-
-              {/* Download Resume Button */}
-              <div className="flex justify-center md:justify-start pt-4">
-                <Button
-                  size="lg"
-                  className="btn-transition bg-primary hover:bg-primary/90"
-                  onClick={() => {
-                    window.open(
-                      'https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/dtyxhy47_SindhuSundararajan_AutomationTestEngineer.pdf',
-                      '_blank'
-                    );
-                  }}
-                >
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume (PDF)
-                </Button>
-              </div>
             </div>
           </div>
         </div>
