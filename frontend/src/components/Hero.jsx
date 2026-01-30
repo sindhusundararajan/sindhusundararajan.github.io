@@ -103,7 +103,7 @@ const Hero = () => {
                 className="btn-transition rounded-full px-8 bg-[#C97DB8] text-[#1A1614] hover:bg-[#C97DB8]/90 dark:!bg-[#C084FC] dark:!text-[#0F1419] dark:hover:!bg-[#C084FC]/90"
                 onClick={() => {
                   window.open(
-                    'https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/dtyxhy47_SindhuSundararajan_AutomationTestEngineer.pdf',
+                    'https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/cq2wnj4y_SindhuSundararajan_SDET.pdf',
                     '_blank'
                   );
                 }}
