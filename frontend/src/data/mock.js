@@ -234,7 +234,7 @@ export const skills = {
   ],
   "Database & ETL": [
     { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-    { name: "Snowflake", logo: "https://www.svgrepo.com/show/354381/snowflake.svg" },
+    { name: "Snowflake", logo: "https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/7bhl2zn4_snowflake_logo.png" },
     { name: "ETL Testing", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
   ],
   "CI/CD & DevOps": [
