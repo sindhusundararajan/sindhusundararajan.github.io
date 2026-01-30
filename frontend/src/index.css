@@ -7,41 +7,41 @@
 
 @layer base {
   :root {
-    /* Light Mode - Beige & Pastels */
-    --background: 35 25% 93%; /* #F5F1E8 */
-    --foreground: 220 15% 20%; /* Dark text */
-    --card: 0 0% 100%; /* White cards */
-    --card-foreground: 220 15% 20%;
+    /* Light Mode - Brighter Pastel Colors with Better Contrast */
+    --background: 36 33% 97%; /* #FAF6EF - Lighter warm beige */
+    --foreground: 20 15% 10%; /* #1A1614 - Very dark brown/black for main text */
+    --card: 0 0% 100%; /* #FFFFFF - Pure white cards */
+    --card-foreground: 20 15% 10%; /* #1A1614 */
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 20%;
-    --primary: 210 38% 69%; /* Blue #A8C5DA */
-    --primary-foreground: 220 15% 20%;
-    --secondary: 300 27% 79%; /* Purple #D4A5C4 */
-    --secondary-foreground: 220 15% 20%;
-    --accent: 145 26% 76%; /* Mint #B5D4C6 */
-    --accent-foreground: 220 15% 20%;
-    --destructive: 0 84.2% 60.2%;
+    --popover-foreground: 20 15% 10%;
+    --primary: 206 62% 69%; /* #7AB8E8 - Brighter pastel blue */
+    --primary-foreground: 20 15% 10%;
+    --secondary: 314 42% 72%; /* #C97DB8 - Brighter pastel purple */
+    --secondary-foreground: 20 15% 10%;
+    --accent: 158 47% 71%; /* #8FD9B8 - Brighter pastel mint */
+    --accent-foreground: 20 15% 10%;
+    --destructive: 0 70% 70%;
     --destructive-foreground: 0 0% 98%;
-    --muted: 35 25% 88%;
-    --muted-foreground: 220 15% 45%;
-    --border: 35 20% 85%;
-    --input: 35 20% 85%;
-    --ring: 210 38% 69%;
-    --chart-1: 210 38% 69%; /* Blue */
-    --chart-2: 300 27% 79%; /* Purple */
-    --chart-3: 145 26% 76%; /* Mint */
-    --chart-4: 25 73% 81%; /* Peach #F4C7AB */
+    --muted: 36 20% 90%;
+    --muted-foreground: 24 8% 44%; /* #726B64 - Medium gray for tertiary text */
+    --border: 36 20% 85%;
+    --input: 36 20% 85%;
+    --ring: 206 62% 69%;
+    --chart-1: 206 62% 69%; /* Brighter pastel blue */
+    --chart-2: 314 42% 72%; /* Brighter pastel purple */
+    --chart-3: 158 47% 71%; /* Brighter pastel mint */
+    --chart-4: 25 73% 73%; /* #F5AF7B - Brighter pastel coral */
     --chart-5: 200 30% 60%;
     --radius: 0.5rem;
     
-    /* Custom SDET Portfolio Colors */
-    --color-peach: 25 73% 81%; /* #F4C7AB */
-    --color-blue: 210 38% 69%; /* #A8C5DA */
-    --color-purple: 300 27% 79%; /* #D4A5C4 */
-    --color-mint: 145 26% 76%; /* #B5D4C6 */
-    --color-success: 145 60% 50%;
-    --color-warning: 45 90% 60%;
-    --color-error: 0 70% 50%;
+    /* Custom SDET Portfolio Colors - Brighter Pastels */
+    --color-peach: 25 73% 73%; /* #F5AF7B - Brighter coral/peach */
+    --color-blue: 206 62% 69%; /* #7AB8E8 - Brighter pastel blue */
+    --color-purple: 314 42% 72%; /* #C97DB8 - Brighter pastel purple */
+    --color-mint: 158 47% 71%; /* #8FD9B8 - Brighter pastel mint */
+    --color-success: 144 46% 58%; /* #6BC47D - Brighter green */
+    --color-warning: 40 85% 67%; /* #F4B860 - Brighter amber */
+    --color-error: 0 70% 70%; /* #E87C7C - Brighter coral red */
   }
   
   .dark {
