@@ -203,7 +203,7 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right Column - Profile Image */}
+            {/* Right Column - Animated Illustration */}
             <div
               className={`flex justify-center lg:justify-end transition-all duration-1000 delay-300 ${
                 isVisible
@@ -215,16 +215,28 @@ const Hero = () => {
                 {/* Decorative elements */}
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary via-secondary to-accent rounded-full blur-2xl opacity-20 animate-pulse" />
                 
-                {/* Profile Image Container */}
+                {/* Animated Illustration Container */}
                 <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                  <div className="profile-image w-full h-full">
-                    {/* Gradient Background with Professional Styling */}
-                    <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 via-secondary/30 to-accent/30 flex items-center justify-center">
-                      <div className="text-6xl md:text-8xl font-bold text-foreground/80">
-                        SS
+                  <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 flex items-center justify-center">
+                    {/* Lottie Animation */}
+                    <Lottie
+                      animationData={placeholderAnimation}
+                      loop={true}
+                      className="w-full h-full"
+                    />
+                    
+                    {/* Instructional Overlay - Remove after adding actual animation */}
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                      <div className="text-center px-6">
+                        <div className="text-4xl mb-2">👩‍💻</div>
+                        <p className="text-xs text-muted-foreground font-mono">
+                          Replace with Lottie animation
+                        </p>
+                        <p className="text-xs text-muted-foreground font-mono mt-1">
+                          See ANIMATION_GUIDE.md
+                        </p>
                       </div>
                     </div>
-                    {/* Note: Replace the div above with an img tag when you have a web-compatible image format (JPG/PNG/WebP) */}
                   </div>
                   
                   {/* Status Badge */}
