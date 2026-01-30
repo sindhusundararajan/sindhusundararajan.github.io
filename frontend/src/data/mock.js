@@ -324,22 +324,22 @@ export const blogPosts = [
 export const whyWorkWithMe = [
   {
     title: "Quality-First Mindset",
-    description: "I don't just find bugs—I prevent them. By integrating quality checks early in the development lifecycle and advocating for testability in design, I help teams ship confidently. My approach combines proactive risk assessment with comprehensive test coverage to ensure your product meets the highest standards.",
+    description: "I focus on preventing bugs, not just finding them. By thinking about quality early and encouraging testable designs, I help teams ship stable features with confidence and fewer surprises later.",
     icon: "ShieldCheck"
   },
   {
     title: "CI/CD Integration Expert",
-    description: "Testing isn't a bottleneck in my world—it's an accelerator. I design test frameworks that seamlessly integrate with CI/CD pipelines, providing rapid feedback without slowing down deployments. Automated quality gates ensure issues are caught immediately, not in production.",
+    description: "Testing should speed teams up, not slow them down. I build automation that fits naturally into CI/CD pipelines and gives fast, reliable feedback so issues are caught early, not after release.",
     icon: "GitBranch"
   },
   {
     title: "Data-Driven Approach",
-    description: "Every decision is backed by metrics. I track test effectiveness, flakiness rates, coverage gaps, and defect escape rates to continuously improve testing strategies. My analytics background enables me to identify patterns, predict issues, and optimize testing ROI.",
+    description: "I use metrics to guide decisions. Tracking coverage, flaky tests, and defect trends helps me improve test effectiveness and focus effort where it matters most.",
     icon: "LineChart"
   },
   {
     title: "Mentorship & Collaboration",
-    description: "Great testing is a team effort. I've mentored 5+ junior engineers and believe in knowledge sharing. I collaborate closely with developers, product managers, and stakeholders to align quality goals with business objectives and foster a culture where everyone owns quality.",
+    description: "Quality works best when it is shared. I have mentored junior engineers and work closely with developers, product managers, and stakeholders to align quality goals with real business needs and build a strong quality culture.",
     icon: "Users"
   }
 ];
