@@ -42,22 +42,22 @@ const Hero = () => {
             </h1>
 
             {/* Main Heading */}
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-muted-foreground leading-tight">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight" style={{ color: '#4A4642' }}>
               {personalInfo.heroHeadline}
             </h3>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#4A4642' }}>
               {personalInfo.subtitle}
             </p>
 
             {/* Description */}
-            <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl">
+            <p className="text-base md:text-lg leading-relaxed max-w-3xl" style={{ color: '#4A4642' }}>
               Transforming testing landscapes with intelligent automation and data-driven
-              quality assurance. <span className="font-semibold text-primary">5+ years</span> of
+              quality assurance. <span className="font-semibold" style={{ color: '#7AB8E8' }}>5+ years</span> of
               experience reducing manual effort by{' '}
-              <span className="font-semibold text-secondary">94%</span> and ensuring{' '}
-              <span className="font-semibold text-accent">96% data accuracy</span>.
+              <span className="font-semibold" style={{ color: '#6BC47D' }}>94%</span> and ensuring{' '}
+              <span className="font-semibold" style={{ color: '#8FD9B8' }}>96% data accuracy</span>.
             </p>
 
             {/* Social Links */}
