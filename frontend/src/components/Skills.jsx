@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section id="skills" className="section-padding">
       <div className="container-custom">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
@@ -18,36 +18,50 @@ const Skills = () => {
             </p>
           </div>
 
-          {/* Skills Categories */}
-          <div className="space-y-12 mb-16">
+          {/* Skills Categories - Vertical Layout */}
+          <div className="space-y-8 mb-16">
             {Object.entries(skills).map(([category, skillList], catIndex) => (
-              <div
+              <Card
                 key={category}
                 className="animate-slide-up"
                 style={{ animationDelay: `${catIndex * 0.1}s` }}
               >
-                <h3 className="text-2xl font-bold mb-6">{category}</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                  {skillList.map((skill) => {
-                    const IconComponent = LucideIcons[skill.icon];
-
-                    return (
-                      <Card key={skill.name} className="card-hover">
-                        <CardContent className="p-6">
-                          <div className="flex flex-col items-center text-center gap-3">
-                            {IconComponent && (
-                              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                                <IconComponent className="h-6 w-6 text-primary" />
-                              </div>
-                            )}
-                            <h4 className="font-semibold text-sm">{skill.name}</h4>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-6 pb-3 border-b border-border">
+                    {category}
+                  </h3>
+                  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                    {skillList.map((skill) => (
+                      <div
+                        key={skill.name}
+                        className="flex flex-col items-center text-center gap-3 group cursor-pointer"
+                      >
+                        <div className="w-16 h-16 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                          <img
+                            src={skill.logo}
+                            alt={skill.name}
+                            className="w-full h-full object-contain"
+                            onError={(e) => {
+                              e.target.style.display = 'none';
+                              e.target.nextSibling.style.display = 'flex';
+                            }}
+                          />
+                          <div
+                            className="w-16 h-16 rounded-lg bg-primary/10 items-center justify-center hidden"
+                          >
+                            <span className="text-2xl font-bold text-primary">
+                              {skill.name.charAt(0)}
+                            </span>
                           </div>
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
-                </div>
-              </div>
+                        </div>
+                        <span className="text-sm font-medium text-foreground/80 group-hover:text-primary transition-colors">
+                          {skill.name}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
             ))}
           </div>
 
