@@ -1,17 +1,10 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Linkedin, Github, Send } from 'lucide-react';
-import { personalInfo, contactSubjects } from '../data/mock';
+import { personalInfo } from '../data/mock';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from './ui/select';
 import { toast } from '../hooks/use-toast';
 import { Toaster } from './ui/toaster';
 
