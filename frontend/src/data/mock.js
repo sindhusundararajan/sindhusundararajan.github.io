@@ -21,7 +21,7 @@ export const personalInfo = {
   },
   quickStats: [
     { label: "Years of Experience", value: "5+", icon: "Calendar" },
-    { label: "Major Projects", value: "6", icon: "FolderKanban" },
+    { label: "Personal Projects", value: "4", icon: "FolderKanban" },
     { label: "Tests Automated", value: "1,200+", icon: "CheckCircle2" },
     { label: "Efficiency Gain", value: "94%", icon: "TrendingUp" }
   ],
