@@ -254,37 +254,37 @@ export const certifications = [
     name: "Salesforce Tableau Desktop Foundation",
     issuer: "Salesforce",
     date: "2024",
-    icon: "BarChart3"
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg"
   },
   {
     name: "Google Analytics GA4 Certification",
     issuer: "Google",
     date: "2024",
-    icon: "TrendingUp"
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
   },
   {
     name: "AWS Certified Solutions Architect – Associate",
     issuer: "Amazon Web Services",
     date: "2023",
-    icon: "CloudCog"
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
   },
   {
     name: "Microsoft Azure Fundamentals (AZ-900)",
     issuer: "Microsoft",
     date: "2023",
-    icon: "Cloud"
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
   },
   {
     name: "PMP",
     issuer: "UC-Irvine",
     date: "2022",
-    icon: "Award"
+    logo: "https://www.svgrepo.com/show/353415/apple.svg"
   },
   {
     name: "HubSpot Inbound Marketing Certification",
     issuer: "HubSpot",
     date: "2023",
-    icon: "Target"
+    logo: "https://www.svgrepo.com/show/331432/hubspot.svg"
   }
 ];
 
