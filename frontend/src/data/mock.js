@@ -223,7 +223,7 @@ export const skills = {
   "Test Automation": [
     { name: "Selenium", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
     { name: "Playwright", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" },
-    { name: "Appium", logo: "https://www.svgrepo.com/show/353423/appium.svg" },
+    { name: "Appium", logo: "https://customer-assets.emergentagent.com/job_test-architect-2/artifacts/2vrg7tmb_Appium_logo.jpg" },
     { name: "PyTest", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" },
     { name: "TestNG", logo: "https://avatars.githubusercontent.com/u/12528662?s=200&v=4" }
   ],
