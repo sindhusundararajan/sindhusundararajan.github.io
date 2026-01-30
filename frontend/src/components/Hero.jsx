@@ -61,7 +61,7 @@ const Hero = () => {
                 quality assurance. <span className="font-semibold text-primary">5+ years</span> of
                 experience reducing manual effort by{' '}
                 <span className="font-semibold text-secondary">94%</span> and ensuring{' '}
-                <span className="font-semibold text-accent">99.9% data accuracy</span>.
+                <span className="font-semibold text-accent">96% data accuracy</span>.
               </p>
 
               {/* CTA Buttons */}
