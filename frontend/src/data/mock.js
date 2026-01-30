@@ -3,7 +3,7 @@
 
 export const personalInfo = {
   name: "Sindhu Sundararajan",
-  tagline: "<Code.Test.Repeat />",
+  tagline: "<Test.Validate.Deploy />",
   title: "Software Development Engineer in Test",
   subtitle: "Quality Assurance | SDET | Test Automation Architect | Python & Cloud Testing Specialist",
   heroHeadline: "Quality as a Feature, Not a Phase",
