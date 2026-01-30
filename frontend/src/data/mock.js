@@ -210,52 +210,6 @@ export const projects = [
     demonstrates: "Mobile testing expertise, cloud testing platforms, and cross-platform development understanding",
     github: "#",
     demo: null
-  },
-  {
-    id: 5,
-    title: "Performance & Load Testing Suite",
-    shortDesc: "Scalability testing ensuring system resilience under load",
-    description: "Comprehensive performance testing framework measuring application behavior under various load conditions. Identifies bottlenecks, memory leaks, and scalability issues before production.",
-    impact: [
-      { metric: "10,000+", label: "Concurrent Users Tested" },
-      { metric: "45%", label: "Performance Improvement" },
-      { metric: "Zero", label: "Production Incidents" }
-    ],
-    technologies: ["JMeter", "Gatling", "Python", "Grafana", "Prometheus", "AWS CloudWatch"],
-    category: ["Performance Testing", "Cloud"],
-    features: [
-      "Scalability testing with gradual load increase",
-      "Stress testing to identify breaking points",
-      "Endurance testing for memory leak detection",
-      "Real-time monitoring and alerting",
-      "Comprehensive performance metrics and reporting"
-    ],
-    demonstrates: "Performance engineering skills, monitoring tools expertise, and production readiness validation",
-    github: "#",
-    demo: null
-  },
-  {
-    id: 6,
-    title: "AI-Powered Test Maintenance Framework",
-    shortDesc: "Self-healing test automation with ML-based element detection",
-    description: "Innovative test framework leveraging machine learning for intelligent element detection and self-healing capabilities. Reduces test maintenance by 70% through adaptive locator strategies.",
-    impact: [
-      { metric: "70%", label: "Maintenance Reduction" },
-      { metric: "3%", label: "Flaky Test Rate" },
-      { metric: "85%", label: "Auto-Healing Success" }
-    ],
-    technologies: ["Python", "Selenium", "TensorFlow", "Computer Vision", "Playwright", "AI/ML"],
-    category: ["AI/ML", "Automation"],
-    features: [
-      "Multiple locator strategies with fallback mechanisms",
-      "Visual AI for element detection when DOM changes",
-      "Smart waits with dynamic timeout adjustment",
-      "Automatic test script updates when elements change",
-      "Anomaly detection for identifying test instability"
-    ],
-    demonstrates: "Cutting-edge AI/ML integration, innovative problem-solving, and future-focused automation approaches",
-    github: "#",
-    demo: null
   }
 ];
 
