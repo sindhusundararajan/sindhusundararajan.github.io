@@ -225,25 +225,6 @@ const Contact = () => {
               <Card className="card-hover">
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="h-6 w-6 text-secondary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Phone</h3>
-                      <a
-                        href={`tel:${personalInfo.contact.phone}`}
-                        className="text-muted-foreground hover:text-secondary transition-colors"
-                      >
-                        {personalInfo.contact.phone}
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="card-hover">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
                       <MapPin className="h-6 w-6 text-accent" />
                     </div>
