@@ -52,12 +52,12 @@ const Hero = () => {
             </p>
 
             {/* Description */}
-            <p className="text-base md:text-lg leading-relaxed max-w-3xl" style={{ color: '#4A4642' }}>
+            <p className="text-base md:text-lg leading-relaxed max-w-3xl dark:text-[#D1D5DB]" style={{ color: '#4A4642' }}>
               Transforming testing landscapes with intelligent automation and data-driven
-              quality assurance. <span className="font-semibold" style={{ color: '#7AB8E8' }}>5+ years</span> of
+              quality assurance. <span className="font-semibold dark:text-[#7DD3FC]" style={{ color: '#7AB8E8' }}>5+ years</span> of
               experience reducing manual effort by{' '}
-              <span className="font-semibold" style={{ color: '#6BC47D' }}>94%</span> and ensuring{' '}
-              <span className="font-semibold" style={{ color: '#8FD9B8' }}>96% data accuracy</span>.
+              <span className="font-semibold dark:text-[#34D399]" style={{ color: '#6BC47D' }}>94%</span> and ensuring{' '}
+              <span className="font-semibold dark:text-[#6EE7B7]" style={{ color: '#8FD9B8' }}>96% data accuracy</span>.
             </p>
 
             {/* Social Links */}
