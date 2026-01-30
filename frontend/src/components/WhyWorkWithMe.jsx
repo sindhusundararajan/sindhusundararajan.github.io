@@ -2,21 +2,8 @@ import React from 'react';
 import * as LucideIcons from 'lucide-react';
 import { whyWorkWithMe } from '../data/mock';
 import { Card, CardContent } from './ui/card';
-import { Button } from './ui/button';
 
 const WhyWorkWithMe = () => {
-  const handleScrollToMetrics = () => {
-    const element = document.querySelector('#metrics');
-    if (element) {
-      const offset = 80;
-      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-      window.scrollTo({
-        top: elementPosition - offset,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
     <section id="why-work" className="section-padding bg-muted/30">
       <div className="container-custom">
