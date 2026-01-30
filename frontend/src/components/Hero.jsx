@@ -37,27 +37,27 @@ const Hero = () => {
             }`}
           >
             {/* Greeting */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground dark:text-white">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1614] dark:!text-white">
               Hi, I'm {personalInfo.name}
             </h1>
 
             {/* Main Heading */}
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight dark:text-[#E5E7EB]" style={{ color: '#4A4642' }}>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight text-[#4A4642] dark:!text-[#E5E7EB]">
               {personalInfo.heroHeadline}
             </h3>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl leading-relaxed dark:text-[#D1D5DB]" style={{ color: '#4A4642' }}>
+            <p className="text-lg md:text-xl leading-relaxed text-[#4A4642] dark:!text-[#D1D5DB]">
               {personalInfo.subtitle}
             </p>
 
             {/* Description */}
-            <p className="text-base md:text-lg leading-relaxed max-w-3xl dark:text-[#D1D5DB]" style={{ color: '#4A4642' }}>
+            <p className="text-base md:text-lg leading-relaxed max-w-3xl text-[#4A4642] dark:!text-[#D1D5DB]">
               Transforming testing landscapes with intelligent automation and data-driven
-              quality assurance. <span className="font-semibold dark:text-[#67E8F9]" style={{ color: '#7AB8E8' }}>5+ years</span> of
+              quality assurance. <span className="font-semibold text-[#7AB8E8] dark:!text-[#67E8F9]">5+ years</span> of
               experience reducing manual effort by{' '}
-              <span className="font-semibold dark:text-[#4ADE80]" style={{ color: '#6BC47D' }}>94%</span> and ensuring{' '}
-              <span className="font-semibold dark:text-[#5EEAD4]" style={{ color: '#8FD9B8' }}>96% data accuracy</span>.
+              <span className="font-semibold text-[#6BC47D] dark:!text-[#4ADE80]">94%</span> and ensuring{' '}
+              <span className="font-semibold text-[#8FD9B8] dark:!text-[#5EEAD4]">96% data accuracy</span>.
             </p>
 
             {/* Social Links */}
