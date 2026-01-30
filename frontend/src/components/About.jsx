@@ -68,14 +68,17 @@ const About = () => {
             <div className="lg:col-span-2 space-y-8 animate-slide-in-right">
               {/* Bio */}
               <div className="space-y-4">
-                {personalInfo.bio.map((paragraph, index) => (
-                  <p
-                    key={index}
-                    className="text-base md:text-lg text-foreground/80 leading-relaxed"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
+                <ul className="space-y-3">
+                  {personalInfo.bio.map((point, index) => (
+                    <li
+                      key={index}
+                      className="text-base md:text-lg text-foreground/80 leading-relaxed flex items-start gap-3"
+                    >
+                      <span className="text-primary mt-1.5 flex-shrink-0">•</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Core Values */}
