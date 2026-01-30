@@ -1,77 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import * as LucideIcons from 'lucide-react';
 import { skills, certifications } from '../data/mock';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Badge } from './ui/badge';
+import { Card, CardContent } from './ui/card';
 
 const Skills = () => {
-  const [visibleBars, setVisibleBars] = useState({});
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Trigger animation when section comes into view
-            setTimeout(() => {
-              setVisibleBars({});
-              Object.keys(skills).forEach((category, catIndex) => {
-                skills[category].forEach((skill, skillIndex) => {
-                  setTimeout(() => {
-                    setVisibleBars((prev) => ({
-                      ...prev,
-                      [`${category}-${skill.name}`]: true,
-                    }));
-                  }, (catIndex * skills[category].length + skillIndex) * 100);
-                });
-              });
-            }, 200);
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
-  const getLevelWidth = (level) => {
-    switch (level) {
-      case 'Expert':
-        return '95%';
-      case 'Advanced':
-        return '80%';
-      case 'Intermediate':
-        return '65%';
-      default:
-        return '50%';
-    }
-  };
-
-  const getLevelColor = (level) => {
-    switch (level) {
-      case 'Expert':
-        return 'bg-primary';
-      case 'Advanced':
-        return 'bg-secondary';
-      case 'Intermediate':
-        return 'bg-accent';
-      default:
-        return 'bg-muted';
-    }
-  };
-
   return (
-    <section id="skills" className="section-padding" ref={sectionRef}>
+    <section id="skills" className="section-padding">
       <div className="container-custom">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
@@ -93,52 +27,20 @@ const Skills = () => {
                 style={{ animationDelay: `${catIndex * 0.1}s` }}
               >
                 <h3 className="text-2xl font-bold mb-6">{category}</h3>
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                   {skillList.map((skill) => {
                     const IconComponent = LucideIcons[skill.icon];
-                    const isVisible = visibleBars[`${category}-${skill.name}`];
 
                     return (
                       <Card key={skill.name} className="card-hover">
                         <CardContent className="p-6">
-                          <div className="flex items-start justify-between mb-3">
-                            <div className="flex items-center gap-3">
-                              {IconComponent && (
-                                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                                  <IconComponent className="h-5 w-5 text-primary" />
-                                </div>
-                              )}
-                              <div>
-                                <h4 className="font-semibold text-lg">{skill.name}</h4>
-                                <p className="text-sm text-muted-foreground">
-                                  {skill.years} years
-                                </p>
+                          <div className="flex flex-col items-center text-center gap-3">
+                            {IconComponent && (
+                              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                                <IconComponent className="h-6 w-6 text-primary" />
                               </div>
-                            </div>
-                            <Badge
-                              variant="outline"
-                              className={`${
-                                skill.level === 'Expert'
-                                  ? 'border-primary text-primary'
-                                  : skill.level === 'Advanced'
-                                  ? 'border-secondary text-secondary'
-                                  : 'border-accent text-accent'
-                              }`}
-                            >
-                              {skill.level}
-                            </Badge>
-                          </div>
-
-                          {/* Progress Bar */}
-                          <div className="skill-progress">
-                            <div
-                              className={`skill-progress-bar ${getLevelColor(
-                                skill.level
-                              )}`}
-                              style={{
-                                width: isVisible ? getLevelWidth(skill.level) : '0%',
-                              }}
-                            />
+                            )}
+                            <h4 className="font-semibold text-sm">{skill.name}</h4>
                           </div>
                         </CardContent>
                       </Card>
