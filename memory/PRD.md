@@ -55,11 +55,13 @@ Create a high-end, memorable portfolio website for Sindhu Sundararajan, a Softwa
 
 ## Deployment Status
 
-### ✅ Deployment Ready
+### ✅ Deployment Ready (Jan 30, 2025)
 - All services running (frontend, backend, MongoDB)
 - Environment files configured correctly
 - API endpoints responding
 - Application accessible at preview URL
+- `/health` endpoint added for Kubernetes health checks
+- `.gitignore` fixed to allow .env files to be committed
 
 ### Preview URL
 - Current: `https://sindhu-port.preview.emergentagent.com`
