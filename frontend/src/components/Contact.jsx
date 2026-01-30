@@ -31,13 +31,6 @@ const Contact = () => {
     }));
   };
 
-  const handleSubjectChange = (value) => {
-    setFormData((prev) => ({
-      ...prev,
-      subject: value,
-    }));
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
