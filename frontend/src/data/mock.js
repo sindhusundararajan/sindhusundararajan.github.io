@@ -5,8 +5,8 @@ export const personalInfo = {
   name: "Sindhu Sundararajan",
   tagline: "<Code.Test.Repeat />",
   title: "Software Development Engineer in Test",
-  subtitle: "SDET | Test Automation Architect | Python & Cloud Testing Specialist",
-  heroHeadline: "Building Quality into Code, One Test at a Time",
+  subtitle: "Quality Assurance | SDET | Test Automation Architect | Python & Cloud Testing Specialist",
+  heroHeadline: "Quality as a Feature, Not a Phase",
   bio: [
     "I'm a results-driven SDET with 5+ years of experience transforming testing landscapes through intelligent automation and data-driven quality assurance. My journey began at Cognizant, where I reduced manual testing cycles from 80 days to just 5 days through strategic automation—a 94% efficiency gain that sparked my passion for scalable testing solutions.",
     "Currently at Community Dream Foundation, I architect comprehensive test frameworks that blend functional, regression, and API testing. With a Master's in Analytics from Northeastern University specializing in Applied Machine Intelligence, I bring a unique perspective to testing—combining traditional QA rigor with modern AI/ML approaches to build self-healing, adaptive test systems.",
