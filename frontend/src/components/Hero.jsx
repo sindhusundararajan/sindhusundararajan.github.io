@@ -93,7 +93,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Button
                 size="lg"
-                className="btn-transition rounded-full px-8"
+                className="btn-transition rounded-full px-8 dark:bg-[#7DD3FC] dark:text-[#0F1419] dark:hover:bg-[#7DD3FC]/90"
                 style={{ backgroundColor: '#7AB8E8', color: '#1A1614' }}
                 onClick={() => handleScroll('#contact')}
               >
@@ -101,7 +101,7 @@ const Hero = () => {
               </Button>
               <Button
                 size="lg"
-                className="btn-transition rounded-full px-8"
+                className="btn-transition rounded-full px-8 dark:bg-[#C084FC] dark:text-[#0F1419] dark:hover:bg-[#C084FC]/90"
                 style={{ backgroundColor: '#C97DB8', color: '#1A1614' }}
                 onClick={() => {
                   window.open(
