@@ -69,29 +69,37 @@ const Skills = () => {
           <div className="animate-fade-in">
             <h3 className="text-2xl font-bold mb-6 text-center">Certifications</h3>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-              {certifications.map((cert, index) => {
-                const IconComponent = LucideIcons[cert.icon];
-                return (
-                  <Card
-                    key={index}
-                    className="card-hover text-center"
-                    style={{ animationDelay: `${index * 0.1}s` }}
-                  >
-                    <CardContent className="p-6">
-                      <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                        {IconComponent && (
-                          <IconComponent className="h-8 w-8 text-primary" />
-                        )}
+              {certifications.map((cert, index) => (
+                <Card
+                  key={index}
+                  className="card-hover text-center"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <CardContent className="p-6">
+                    <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                      <img
+                        src={cert.logo}
+                        alt={cert.name}
+                        className="w-full h-full object-contain"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.nextSibling.style.display = 'flex';
+                        }}
+                      />
+                      <div className="w-16 h-16 rounded-full bg-primary/10 items-center justify-center hidden">
+                        <span className="text-2xl font-bold text-primary">
+                          {cert.name.charAt(0)}
+                        </span>
                       </div>
-                      <h4 className="font-semibold mb-2">{cert.name}</h4>
-                      <p className="text-sm text-muted-foreground mb-1">
-                        {cert.issuer}
-                      </p>
-                      <p className="text-xs text-muted-foreground">{cert.date}</p>
-                    </CardContent>
-                  </Card>
-                );
-              })}
+                    </div>
+                    <h4 className="font-semibold mb-2">{cert.name}</h4>
+                    <p className="text-sm text-muted-foreground mb-1">
+                      {cert.issuer}
+                    </p>
+                    <p className="text-xs text-muted-foreground">{cert.date}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </div>
