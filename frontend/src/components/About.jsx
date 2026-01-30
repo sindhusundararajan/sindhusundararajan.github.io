@@ -20,7 +20,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A passionate SDET with a mission to make software bulletproof
+              Breaking Code Early So Users Never Do
             </p>
           </div>
 
