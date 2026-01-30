@@ -27,7 +27,7 @@ const WhyWorkWithMe = () => {
               Why Work With Me?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              More than just testing—I'm your partner in building exceptional software
+              I don't just test software. I help teams build products they can trust.
             </p>
           </div>
 
