@@ -106,14 +106,6 @@ const Footer = () => {
                     {personalInfo.contact.email}
                   </a>
                 </li>
-                <li>
-                  <a
-                    href={`tel:${personalInfo.contact.phone}`}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {personalInfo.contact.phone}
-                  </a>
-                </li>
                 <li>{personalInfo.contact.location}</li>
               </ul>
             </div>
