@@ -37,8 +37,8 @@ const Hero = () => {
             }`}
           >
             {/* Greeting */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Hi, I'm {personalInfo.name.split(' ')[0]}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
+              Hi, I'm {personalInfo.name}
             </h1>
 
             {/* Main Heading */}
