@@ -70,9 +70,9 @@ const WhyWorkWithMe = () => {
                   Sindhu was an enthusiastic and quick learner. She has scaled up herself to deliver in Agile fashion. She was very active and ready to explore her learning skills and using it to fix the codes and helped in implementation parts. She was skillful and also managed the team as an individual.
                 </blockquote>
                 <div className="flex flex-col items-center">
-                  <p className="font-semibold">Sarah Martinez</p>
+                  <p className="font-semibold">Antony Jeniro</p>
                   <p className="text-sm text-muted-foreground">
-                    Senior Engineering Manager, Cognizant
+                    Project Lead, Cognizant
                   </p>
                 </div>
               </div>
