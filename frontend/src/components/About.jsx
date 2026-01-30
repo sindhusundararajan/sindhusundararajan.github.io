@@ -1,8 +1,6 @@
 import React from 'react';
-import { Download } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 import { personalInfo } from '../data/mock';
-import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 
 const About = () => {
