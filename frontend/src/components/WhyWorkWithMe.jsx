@@ -78,17 +78,6 @@ const WhyWorkWithMe = () => {
               </div>
             </CardContent>
           </Card>
-
-          {/* CTA Button */}
-          <div className="text-center mt-12">
-            <Button
-              size="lg"
-              className="btn-transition bg-primary hover:bg-primary/90"
-              onClick={handleScrollToMetrics}
-            >
-              See My Impact
-            </Button>
-          </div>
         </div>
       </div>
     </section>
