@@ -215,37 +215,37 @@ export const projects = [
 
 export const skills = {
   "Programming & Scripting": [
-    { name: "Python", icon: "Code2" },
-    { name: "SQL", icon: "Database" },
-    { name: "JavaScript", icon: "FileCode" },
-    { name: "Node.js", icon: "Server" }
+    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
   ],
   "Test Automation": [
-    { name: "Selenium", icon: "Globe" },
-    { name: "Playwright", icon: "Theater" },
-    { name: "Appium", icon: "Smartphone" },
-    { name: "PyTest", icon: "Flask" },
-    { name: "TestNG", icon: "TestTube" }
+    { name: "Selenium", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
+    { name: "Playwright", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" },
+    { name: "Appium", logo: "https://www.svgrepo.com/show/353423/appium.svg" },
+    { name: "PyTest", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" },
+    { name: "TestNG", logo: "https://avatars.githubusercontent.com/u/12528662?s=200&v=4" }
   ],
   "API & Integration Testing": [
-    { name: "Postman", icon: "Send" },
-    { name: "REST Assured", icon: "Webhook" },
-    { name: "Swagger/OpenAPI", icon: "FileJson" }
+    { name: "Postman", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
+    { name: "REST Assured", logo: "https://avatars.githubusercontent.com/u/19369327?s=200&v=4" },
+    { name: "Swagger/OpenAPI", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" }
   ],
   "Database & ETL": [
-    { name: "MySQL", icon: "Database" },
-    { name: "Snowflake", icon: "Cloud" },
-    { name: "ETL Testing", icon: "ArrowLeftRight" }
+    { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "Snowflake", logo: "https://www.svgrepo.com/show/354381/snowflake.svg" },
+    { name: "ETL Testing", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
   ],
   "CI/CD & DevOps": [
-    { name: "Jenkins", icon: "Cog" },
-    { name: "GitHub Actions", icon: "Github" },
-    { name: "Docker", icon: "Container" },
-    { name: "Terraform", icon: "Boxes" }
+    { name: "Jenkins", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+    { name: "GitHub Actions", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+    { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "Terraform", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" }
   ],
   "Cloud Platforms": [
-    { name: "AWS", icon: "CloudCog" },
-    { name: "Azure", icon: "Cloud" }
+    { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+    { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" }
   ]
 };
 
