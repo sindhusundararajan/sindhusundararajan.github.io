@@ -42,12 +42,12 @@ const Hero = () => {
             </h1>
 
             {/* Main Heading */}
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight" style={{ color: '#4A4642' }}>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight dark:text-[#D1D5DB]" style={{ color: '#4A4642' }}>
               {personalInfo.heroHeadline}
             </h3>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#4A4642' }}>
+            <p className="text-lg md:text-xl leading-relaxed dark:text-[#D1D5DB]" style={{ color: '#4A4642' }}>
               {personalInfo.subtitle}
             </p>
 
