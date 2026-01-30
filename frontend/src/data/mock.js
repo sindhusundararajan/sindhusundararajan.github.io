@@ -148,9 +148,9 @@ export const projects = [
     shortDesc: "Contract-based API testing ensuring service compatibility",
     description: "Robust API testing framework implementing contract testing principles to ensure seamless microservices communication. Validates API contracts, schema compliance, and backward compatibility.",
     impact: [
-      { metric: "99.5%", label: "API Reliability" },
-      { metric: "50%", label: "Integration Issues Prevented" },
-      { metric: "30%", label: "Faster Deployment" }
+      { metric: "92%", label: "API Reliability" },
+      { metric: "73%", label: "Integration Issues Prevented" },
+      { metric: "40%", label: "Faster Deployment" }
     ],
     technologies: ["REST Assured", "Postman", "Swagger", "Python", "JSON Schema", "Docker"],
     category: ["API Testing", "Microservices"],
