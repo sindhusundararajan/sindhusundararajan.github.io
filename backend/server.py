@@ -66,13 +66,13 @@ async def get_status_checks():
     
     return status_checks
 
-# Include the router in the main app
-app.include_router(api_router)
-
-# Health check endpoint for Kubernetes deployment
-@app.get("/health")
+# Health check endpoint for Kubernetes deployment (must be under /api for routing)
+@api_router.get("/health")
 async def health_check():
     return {"status": "healthy"}
+
+# Include the router in the main app
+app.include_router(api_router)
 
 app.add_middleware(
     CORSMiddleware,
