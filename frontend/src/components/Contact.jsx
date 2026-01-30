@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, MapPin, Linkedin, Github, Send } from 'lucide-react';
 import { personalInfo, contactSubjects } from '../data/mock';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
