@@ -45,39 +45,39 @@
   }
   
   .dark {
-    /* Dark Mode - Deep Charcoal & Vibrant Accents */
-    --background: 216 30% 8%; /* #0F1419 */
-    --foreground: 210 20% 98%; /* Light text */
-    --card: 216 25% 12%;
-    --card-foreground: 210 20% 98%;
-    --popover: 216 25% 12%;
-    --popover-foreground: 210 20% 98%;
-    --primary: 199 89% 65%; /* Sky Blue #5FB3F6 */
+    /* Dark Mode - High Contrast with Bright, Readable Text */
+    --background: 216 30% 8%; /* #0F1419 - Deep charcoal */
+    --foreground: 0 0% 96%; /* #F5F5F5 - Almost white for main text */
+    --card: 214 24% 14%; /* #22282F - Elevated cards */
+    --card-foreground: 0 0% 96%; /* #F5F5F5 */
+    --popover: 214 24% 14%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 199 95% 74%; /* #7DD3FC - Bright sky blue */
     --primary-foreground: 216 30% 8%;
-    --secondary: 258 76% 76%; /* Soft Purple #A78BFA */
+    --secondary: 271 91% 75%; /* #C084FC - Bright purple */
     --secondary-foreground: 216 30% 8%;
-    --accent: 158 64% 67%; /* Mint Green #6EE7B7 */
+    --accent: 158 64% 67%; /* #6EE7B7 - Bright mint green */
     --accent-foreground: 216 30% 8%;
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 210 20% 98%;
-    --muted: 216 25% 18%;
-    --muted-foreground: 210 15% 60%;
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 0 0% 96%;
+    --muted: 214 20% 18%;
+    --muted-foreground: 220 9% 68%; /* #9CA3AF - Medium gray */
     --border: 216 20% 20%;
     --input: 216 20% 20%;
-    --ring: 199 89% 65%;
-    --chart-1: 199 89% 65%; /* Sky Blue */
-    --chart-2: 258 76% 76%; /* Purple */
-    --chart-3: 158 64% 67%; /* Mint */
-    --chart-4: 280 70% 70%;
+    --ring: 199 95% 74%;
+    --chart-1: 199 95% 74%; /* Bright sky blue */
+    --chart-2: 271 91% 75%; /* Bright purple */
+    --chart-3: 158 64% 67%; /* Bright mint */
+    --chart-4: 45 97% 63%; /* #FCD34D - Bright amber */
     --chart-5: 220 80% 60%;
     
-    /* Custom SDET Portfolio Colors for Dark Mode */
-    --color-blue: 199 89% 65%; /* #5FB3F6 */
-    --color-purple: 258 76% 76%; /* #A78BFA */
-    --color-mint: 158 64% 67%; /* #6EE7B7 */
-    --color-success: 158 64% 67%;
-    --color-warning: 45 90% 60%;
-    --color-error: 0 70% 60%;
+    /* Custom SDET Portfolio Colors for Dark Mode - High Visibility */
+    --color-blue: 199 95% 74%; /* #7DD3FC - Bright sky blue */
+    --color-purple: 271 91% 75%; /* #C084FC - Bright purple */
+    --color-mint: 158 64% 67%; /* #6EE7B7 - Bright mint */
+    --color-success: 152 69% 58%; /* #34D399 - Bright green */
+    --color-warning: 45 93% 56%; /* #FBBF24 - Bright amber */
+    --color-error: 0 84% 70%; /* #F87171 - Bright coral red */
   }
 }
 
